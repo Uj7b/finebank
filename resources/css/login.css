@@ -1,0 +1,33 @@
+/* ! Login view style */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    height: 100%;
+}
+body {
+    background: var(--main);
+    height: 100%;
+}
+
+h1,
+.forget-password,
+.create-account {
+    color: var(--primary-color);
+}
+.divider {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+hr {
+    flex: 1;
+    border: none;
+    border-top: 1.7px solid #cacdd7;
+}
+.divider span {
+    color: #999da3;
+    font-family: "poppins regular";
+}

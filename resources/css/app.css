@@ -1,11 +1,20 @@
-@import 'tailwindcss';
-
-@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
-@source '../../storage/framework/views/*.php';
-@source '../**/*.blade.php';
-@source '../**/*.js';
-
-@theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
-        'Segoe UI Symbol', 'Noto Color Emoji';
+@font-face {
+    font-family: "poppins regular";
+    src: url(../fonts/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "poppins light";
+    src: url(../fonts/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "poppins bold";
+    src: url(../fonts/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "poppins extra bold";
+    src: url(../fonts/Poppins-ExtraBold.ttf);
+}
+:root {
+    --primary-color: #299D91;
+    --main: #F4F5F7;
 }
