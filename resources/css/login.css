@@ -22,7 +22,7 @@ h1,
     align-items: center;
     gap: 10px;
 }
-hr {
+.divider hr {
     flex: 1;
     border: none;
     border-top: 1.7px solid #cacdd7;
