@@ -34,6 +34,7 @@ h1 .bold {
 }
 h1 {
     font-family: "poppins regular";
+    margin-bottom: 32px;
 }
 label,
 a,
