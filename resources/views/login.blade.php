@@ -14,20 +14,23 @@
         <form>
             <label for="email">Email Address</label>
             <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
-            <div>
+            <div class="forgot-password">
                 <label for="password">Password</label>
                 <a href="" class="forget-password">Forgot Password?</a>
             </div>
             <input type="password" name="password" id="password" placeholder="●●●●●●●●●●●●●●">
-            <input type="checkbox" name="" id="">
+            <div class="keep-me">
+                <input type="checkbox" name="" id="">
             <label for="">Keep me signed in</label>
-            <input type="submit" value="Login">
+            </div>
+            <input type="submit" value="Login" class="submit">
         </form>
         <div class="divider">
             <hr><span>or sign in with</span><hr>
         </div>
-        <button>Continue with Google</button>
+        <button class="google">Continue with Google</button>
         <a href="" class="create-account">Create an account</a>
+        <img src="../assets/google.png" alt="">
     </div>
 </body>
 </html>
