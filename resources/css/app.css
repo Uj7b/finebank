@@ -18,3 +18,8 @@
     --primary-color: #299D91;
     --main: #F4F5F7;
 }
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

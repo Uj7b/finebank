@@ -18,7 +18,7 @@
                 <label for="password">Password</label>
                 <a href="" class="forget-password">Forgot Password?</a>
             </div>
-            <input type="password" name="password" id="password" placeholder="●●●●●●●●●●●●●●">
+            <input type="password" name="password" id="password" placeholder="•••••••••••">
             <div class="keep-me">
                 <input type="checkbox" name="" id="">
             <label for="">Keep me signed in</label>

@@ -1,9 +1,4 @@
 /* ! Login view style */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 html {
     height: 100%;
 }
@@ -20,7 +15,6 @@ a {
 .container {
     width: 320px;
     height: fit-content;
-
 }
 
 h1,
@@ -60,8 +54,7 @@ input:not([type="checkbox"]),
 }
 .google {
     background: #e4e7eb;
-        margin-bottom: 25px;
-
+    margin-bottom: 25px;
 }
 .divider {
     display: flex;
