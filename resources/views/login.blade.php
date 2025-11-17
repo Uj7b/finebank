@@ -16,7 +16,7 @@
             <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
             <div class="forgot-password">
                 <label for="password">Password</label>
-                <a href="" class="forget-password">Forgot Password?</a>
+                <a href={{ route("forgot-password") }}>Forgot Password?</a>
             </div>
             <input type="password" name="password" id="password" placeholder="•••••••••••">
             <div class="keep-me">
@@ -29,7 +29,7 @@
             <hr><span>or sign in with</span><hr>
         </div>
         <button class="google"><img src={{ asset('assets/google.png') }} alt="">Continue with Google</button>
-        <a href="" class="create-account">Create an account</a>
+        <a href={{ route("signup") }} class="create-account">Create an account</a>
     </div>
 </body>
 </html>
