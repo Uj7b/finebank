@@ -28,9 +28,8 @@
         <div class="divider">
             <hr><span>or sign in with</span><hr>
         </div>
-        <button class="google">Continue with Google</button>
+        <button class="google"><img src={{ asset('assets/google.png') }} alt="">Continue with Google</button>
         <a href="" class="create-account">Create an account</a>
-        <img src="../assets/google.png" alt="">
     </div>
 </body>
 </html>

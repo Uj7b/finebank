@@ -55,6 +55,13 @@ input:not([type="checkbox"]),
 .google {
     background: #e4e7eb;
     margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #4b4768;
+    cursor: pointer;
+    font-family: "poppins regular";
 }
 .divider {
     display: flex;
@@ -104,4 +111,8 @@ input[type="checkbox"] {
     justify-content: baseline;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+.google img {
+    width: 26px;
 }
