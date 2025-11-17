@@ -18,7 +18,7 @@ a {
 }
 
 h1,
-.forget-password,
+.forgot-password,
 .create-account {
     color: var(--primary-color);
     text-align: center;

@@ -19,14 +19,14 @@
             <input type="email" name="" id="" placeholder="Hello@example.com">
             <label for="">Password</label>
             <input type="password" name="" id="" placeholder="•••••••••••"> 
-            <span>By continuing, you agree to our <a href="">terms of services</a></span>
+            <span class="terms">By continuing, you agree to our <a href="">terms of services.</a></span>
             <input type="submit" value="Sign up">
         </form>
         <div class="divider">
             <hr><span>or sign up with</span><hr>
         </div>
-        <button>Continue with Google</button>
-        <span>Already have an account?<a href="">Sign in here</a></span>
+        <button class="google">Continue with Google</button>
+        <span class="have-account">Already have an account? <a href="">Sign in here</a></span>
     </div>
 </body>
 </html>
