@@ -16,6 +16,7 @@
 }
 :root {
     --primary-color: #299D91;
+    --primary-color-hover: #279489;
     --main: #F4F5F7;
 }
 * {
