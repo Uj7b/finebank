@@ -7,9 +7,10 @@ body {
     height: 100%;
 }
 aside {
-    width: fit-content;
+    width:200px;
     height: 100%;
     background: #191919;
+    padding: 15px 20px;
 }
 aside h1 {
     color: white;
@@ -17,19 +18,21 @@ aside h1 {
     text-align: center;
 }
 aside ul {
+    list-style: none;
     margin: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 aside ul a {
-    text-decoration: none;  
+    text-decoration: none;
     display: flex;
+    align-items: center;
     gap: 12px;
+    padding: 9px 10px;
     font-family: "poppins regular";
-    padding: 12px 16px;
     border-radius: 4px;
-    color: #BABABA;
+    color: #bababa;
 }
 aside ul a.active {
     color: white;
