@@ -1,1 +1,37 @@
 /* ! Home page css */
+html {
+    height: 100%;
+}
+body {
+    background: var(--main);
+    height: 100%;
+}
+aside {
+    width: fit-content;
+    height: 100%;
+    background: #191919;
+}
+aside h1 {
+    color: white;
+    font: 24px "poppins regular";
+    text-align: center;
+}
+aside ul {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+aside ul a {
+    text-decoration: none;  
+    display: flex;
+    gap: 12px;
+    font-family: "poppins regular";
+    padding: 12px 16px;
+    border-radius: 4px;
+    color: #BABABA;
+}
+aside ul a.active {
+    color: white;
+    background: var(--primary-color);
+}

@@ -15,7 +15,7 @@
         <h1><span class="bold">FINE</span>bank.<span class="bold">IO</span></h1>
         <div class="side-actions">
             <ul>
-                <li><a href=""><i class="fa-solid fa-house"></i>Overview</a></li>
+                <li><a href="" class="active"><i class="fa-solid fa-house"></i>Overview</a></li>
                 <li><a href=""><i class="fa-solid fa-wallet"></i>Balances</a></li>
                 <li><a href=""><i class="fa-solid fa-right-left"></i>Transactions</a></li>
                 <li><a href=""><i class="fa-solid fa-receipt"></i>Bills</a></li>
