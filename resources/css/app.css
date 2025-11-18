@@ -1,3 +1,5 @@
+@import "@fortawesome/fontawesome-free/css/all.css";
+
 @font-face {
     font-family: "poppins regular";
     src: url(../fonts/Poppins-Regular.ttf);
@@ -15,9 +17,9 @@
     src: url(../fonts/Poppins-ExtraBold.ttf);
 }
 :root {
-    --primary-color: #299D91;
+    --primary-color: #299d91;
     --primary-color-hover: #279489;
-    --main: #F4F5F7;
+    --main: #f4f5f7;
 }
 * {
     margin: 0;
