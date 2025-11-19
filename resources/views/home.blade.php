@@ -25,18 +25,18 @@
             </ul>
         </div>
         <div class="side-user">
-            <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
+            <a href="" class="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
             <hr>
             <div class="side-profile">
-                <div>
-                    <img src="" alt="">
+                <div class="pfp">
+                    <img src={{ asset('assets/pfp.png') }} alt="">
                 </div>
-                <div>
+                <div class="side-infos">
                     <span>Addi Mohammed</span>
                     <a href="">View Profile</a>
                 </div>
                 <div>
-                    <i class="fa-solid fa-ellipsis-vertical"></i>
+                    <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
                 </div>
             </div>
         </div>

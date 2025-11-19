@@ -7,7 +7,7 @@ body {
     height: 100%;
 }
 aside {
-    width:200px;
+    width: 200px;
     height: 100%;
     background: #191919;
     padding: 15px 20px;
@@ -17,6 +17,9 @@ aside h1 {
     font: 24px "poppins regular";
     text-align: center;
     margin-bottom: 20px;
+}
+aside .bold {
+    font-family: "poppins bold";
 }
 aside ul {
     list-style: none;
@@ -42,4 +45,44 @@ aside ul a.active {
 aside ul a:hover {
     color: white;
     background: var(--primary-color-hover);
+}
+
+.side-user a.logout {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 9px 10px;
+    font-family: "poppins regular";
+    border-radius: 4px;
+    color: #bababa;
+}
+
+.side-user a.logout {
+    background: #292929;
+    color: #c6c6c6;
+}
+.side-user a.logout {
+    background: #252525;
+}
+
+.side-user .pfp {
+    width: 32px;
+    height: 32px;
+    border-radius: 100%;
+    overflow: hidden;
+}
+.side-user .pfp img {
+    width: 100%;
+}
+.side-user .side-infos {
+}
+.side-user .side-infos span {
+    font-family: "poppins bold";
+    color: white;
+}
+.side-user .side-infos a {
+    text-decoration: none;
+    font-family: "poppins regular";
+    color: #bababa;
 }
