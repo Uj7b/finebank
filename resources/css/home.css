@@ -62,7 +62,7 @@ aside ul a:hover {
     background: #292929;
     color: #c6c6c6;
 }
-.side-user a.logout {
+.side-user a.logout:hover {
     background: #252525;
 }
 
@@ -85,4 +85,12 @@ aside ul a:hover {
     text-decoration: none;
     font-family: "poppins regular";
     color: #bababa;
+}
+
+/* ? TEST */
+.side-profile {
+    background: #075094;
+}
+.side-infos {
+    background: #07945c;
 }
