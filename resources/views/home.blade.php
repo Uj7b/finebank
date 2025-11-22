@@ -27,17 +27,15 @@
         <div class="side-user">
             <a href="" class="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
             <hr>
-            <div class="side-profile">
-                <div class="pfp">
-                    <img src={{ asset('assets/pfp.png') }} alt="">
+            <div class="card">
+                <img src={{ asset("assets/pfp.png") }} class="avatar">
+
+                <div class="info">
+                    <h3>ADDI MOHAMMED</h3>
+                    <p>View profile</p>
                 </div>
-                <div class="side-infos">
-                    <span>Addi Mohammed</span>
-                    <a href="">View Profile</a>
-                </div>
-                <div>
-                    <button><i class="fa-solid fa-ellipsis-vertical"></i></button>
-                </div>
+
+                <div class="menu">⋮</div>
             </div>
         </div>
     </aside>
@@ -45,11 +43,11 @@
         <header class="top-header">
             <div class="user-info">
                 <h1>ADDI MOHAMMED</h1>
-                <p> <span>>></span> {{ \Carbon\Carbon::now()->format('M d, Y') }}</p>
+                <p> <span>>></span>Time on server</p>
             </div>
 
             <div class="actions">
-                <div class="notification">notification bell</div>
+                <div class="notification"><i class="fa-solid fa-bell"></i></div>
                 <div class="search">
                     <input type="text">
                     <i class="fa-solid fa-magnifying-glass"></i> </div>
@@ -57,7 +55,29 @@
         </header>
 
         <section class="content">
-
+            <div>
+                <div class="total-balance">
+                    <h1>Total expenses</h1>
+                </div>
+                <div class="goals">
+                    <h1>Goals</h1>
+                </div>
+                <div class="upcoming-bills">
+                    <h1>Upcomming Bill</h1>
+                    <a href="">View all <i class="fa-solid fa-angle-right"></i></a>
+                </div>
+            </div>
+            <div class="recent-transactions">
+                <h1>Recent Transaction</h1>
+                <a href="">View all<i class="fa-solid fa-angle-right"></i></a>
+            </div>
+            <div class="statistics">
+                <h1>Statistics</h1>
+            </div>
+            <div class="expenses-breakdown">
+                <h1>Expenses Breakdown</h1>
+                <span>*Compared to last month</span>
+            </div>
         </section>
     </main>
 </body>

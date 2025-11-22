@@ -87,10 +87,10 @@ aside ul a:hover {
     color: #bababa;
 }
 
-/* ? TEST */
-.side-profile {
-    background: #075094;
+.side-user hr {
+    border: none; /* remove default */
+    height: 1px; /* thickness */
+    background-color: #2B2B2B; /* color you want */
+    margin: 30px 0;
 }
-.side-infos {
-    background: #07945c;
-}
+
