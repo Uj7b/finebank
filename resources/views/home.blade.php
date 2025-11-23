@@ -61,7 +61,7 @@
                     <div class="expenses-card">
                         <div class="expenses-card-content">
                             <div class="expenses-card-header">
-                                <h1 class="account-balance">$240,399</h1>
+                                <h1 class="account-total-balance">$240,399</h1>
                                 <a href="">All accounts</a>
                             </div>
                             <hr>
