@@ -58,6 +58,23 @@
             <div>
                 <div class="total-balance">
                     <h1>Total expenses</h1>
+                    <div class="expenses-card">
+                        <div class="expenses-card-content">
+                            <div class="expenses-card-header">
+                                <h1 class="account-balance">$240,399</h1>
+                                <a href="">All accounts</a>
+                            </div>
+                            <hr>
+                            <div class="expenses-card-account">
+                                <div></div>
+                            </div>
+                        </div>
+                        <div class="expenses-card-footer">
+                            <button><i class="fa-solid fa-angle-left"></i>Previous</button>
+                            <div class="account-ellipses"></div>
+                            <button>Next <i class="fa-solid fa-angle-right"></i></button>
+                        </div>
+                    </div>
                 </div>
                 <div class="goals">
                     <h1>Goals</h1>
