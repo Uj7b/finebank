@@ -17,3 +17,6 @@ Route::get('forgot-password', function () {
 Route::get('terms-of-services', function () {
     return "terms-of-services";
 })->name("terms-of-services");
+Route::get('accounts', function () {
+    return "accounts";
+})->name("accounts");

@@ -62,7 +62,7 @@
                         <div class="expenses-card-content">
                             <div class="expenses-card-header">
                                 <h1 class="account-total-balance">$240,399</h1>
-                                <a href="">All accounts</a>
+                                <a href={{ route("accounts") }}>All accounts</a>
                             </div>
                             <hr>
                             <div class="expenses-card-account">
