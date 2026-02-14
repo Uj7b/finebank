@@ -13,6 +13,13 @@ return new class extends Migration
     {
         Schema::create('accounts', function (Blueprint $table) {
             $table->id();
+            $table->foreignId("user_id")->constrained("users","id");
+            $table->string("bank_name");
+            $table->enum("acc_type",["Checking","Credit Card","Savings","Investment","Load"]);
+            $table->decimal("balance",10,2);
+            $table->string("branche_name");
+            $table->string("acc_number_full");
+            $table->string("acc_number_masked");
             $table->timestamps();
         });
     }
