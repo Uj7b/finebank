@@ -18,7 +18,7 @@
             <input type="email" name="" id="" placeholder="hello@example.com">
             <input type="submit" value="Password Reset">
         </form>
-        <a href="">Back to login</a>
+        <a href={{ route("login") }}>Back to login</a>
     <div>
 </body>
 </html>
