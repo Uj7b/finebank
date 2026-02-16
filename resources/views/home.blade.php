@@ -28,7 +28,7 @@
             <a href="" class="logout"><i class="fa-solid fa-arrow-right-from-bracket"></i>Logout</a>
             <hr>
             <div class="card">
-                <img src={{ asset("assets/pfp.png") }} class="avatar">
+                <div class="avatar"><img src={{ asset("assets/pfp.png") }}></div>
 
                 <div class="info">
                     <h3>ADDI MOHAMMED</h3>

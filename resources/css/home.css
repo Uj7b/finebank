@@ -90,7 +90,19 @@ aside ul a:hover {
 .side-user hr {
     border: none; /* remove default */
     height: 1px; /* thickness */
-    background-color: #2B2B2B; /* color you want */
+    background-color: #2b2b2b; /* color you want */
     margin: 30px 0;
 }
 
+.side-user .card .avatar {
+    width: 30px;
+    border-radius: 50%;
+    overflow: hidden;
+    background: yellow;
+}
+.avatar img {
+    width: 100%;
+}
+.side-user .card {
+    display: flex;
+}

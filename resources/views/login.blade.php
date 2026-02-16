@@ -11,7 +11,8 @@
 <body>
     <div class="container">
         <h1><span class="bold">FINE</span>bank.<span class="bold">IO</span></h1>
-        <form>
+        <form method="POST" action="">
+            @csrf
             <label for="email">Email Address</label>
             <input type="email" name="email" id="email" placeholder="johndoe@gmail.com">
             <div class="forgot-password">
